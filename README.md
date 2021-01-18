@@ -24,7 +24,7 @@ https://circi-btn.herokuapp.com/
 
 ## Features
 
-- [x] A button that pops up a marketing tagline from one of CirclCi's recent ads
+- [x] A button that pops up a marketing tagline from one of CircleCi's recent ads
 - [x] Continuos Integration Testing Workflow via Jest / CircleCI / Github
 - [x] Continuous Deployment via CircleCI / Github / Heroku
 
