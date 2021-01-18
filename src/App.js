@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Button from "./Button/Button";
+import "./App.css";
 
 function App() {
+  const [text, setText] = useState("");
+  const handleClick = () => {
+    setText("Hire Me!");
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="display-text">{text}</div>
+      <Button onClick={handleClick}>Click Me!</Button>
     </div>
   );
 }
