@@ -10,7 +10,7 @@ test("renders text on button click", () => {
   const { container } = render(<App />);
   expect(queryByText(container, "The best tool for every job")).toBeFalsy();
   fireEvent(
-    getByText(container, "CircleCI"),
+    getByText(container, "circleci"),
     new MouseEvent("click", {
       bubbles: true,
       cancelable: true,

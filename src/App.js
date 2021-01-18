@@ -12,9 +12,7 @@ function App() {
       <div className="display-container">
         {/* <div className="display-box"> */}
         <div className="display-text">{text}</div>
-        <Button onClick={handleClick}>
-          circle<b>ci</b>
-        </Button>
+        <Button onClick={handleClick}>circleci</Button>
         {/* </div> */}
       </div>
     </div>
